@@ -10,6 +10,7 @@
 (https://www.codefactor.io/repository/github/spiderjockey02/discord-bot/overview/master)
 ![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=http%3A%2F%2F86.25.177.233%2F)
 
+  </div>
   
   ## ❗ COMMANDS
 
