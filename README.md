@@ -18,3 +18,19 @@
 *   🥷  **DESTROY**
 *   🥷  **DONATE**
 *   🥷  **AND MUCH MORE**
+
+
+
+
+**Installation**
+
+> Npm install --force
+
+**Configuration**
+
+> Open the .envTemp file
+> Fill in the variables
+
+**Run the bot**
+
+> To run the bot, do `npm run dev`
