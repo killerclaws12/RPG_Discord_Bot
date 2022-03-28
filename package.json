@@ -8,7 +8,6 @@
     "dev": "nodemon index.js",
     "postinstall": "sh postinstall.sh",
     "start": "node index.js",
-    "test": "export NODE_ENV=test && nyc mocha --exit './test/**/*.test.js'"
   },
   "author": "Tormod & Markus",
   "license": "ISC",
