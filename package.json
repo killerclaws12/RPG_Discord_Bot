@@ -7,7 +7,7 @@
     "debug": "nodemon --inspect index.js",
     "dev": "nodemon index.js",
     "postinstall": "sh postinstall.sh",
-    "start": "node index.js",
+    "start": "node index.js"
   },
   "author": "Tormod & Markus",
   "license": "ISC",
