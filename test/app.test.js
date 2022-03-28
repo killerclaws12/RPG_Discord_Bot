@@ -32,12 +32,12 @@ describe("test suite", () => {
 		it("Should be able to create a user", async ()=> {
 			const account = {
 				username: "Beate Bueskytter",
-				userId: "285744285944333194",
+				userId: "620708924093628436",
 			};
 			const testUser = await createTestUser({ account });
 
 			expect(testUser.account.username).to.equal("Beate Bueskytter");
-			expect(testUser.account.userId).to.equal("285744285944333194");
+			expect(testUser.account.userId).to.equal("620708924093628436");
 		});
 		it("Should be able to create several users and find them in database", async ()=> {
 			const users = [];
