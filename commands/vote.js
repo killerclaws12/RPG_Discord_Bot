@@ -3,7 +3,7 @@ const { getIcon } = require("../game/_CONSTS/icons");
 
 module.exports = {
 	name: "vote",
-	description: "Players can vote for Mega RPG at top.gg and receive a small bonus",
+	description: "Players can vote for Ultimate RPG at top.gg and receive a small bonus",
 	async execute(message) {
 		const voteEmbed = generateVoteEmbed();
 		return message.channel.send(voteEmbed);
@@ -29,7 +29,7 @@ const generateVoteEmbed = () => {
 	const voteEmbed = new Discord.MessageEmbed()
 
 		.setColor("#0099ff")
-		.setTitle("Vote for Ultra RPG and get rewards!")
+		.setTitle("Vote for Ultimate RPG and get rewards!")
 		.setDescription(`**${healIcon} Heal potion** \n ${minibossIcon} ** Miniboss cooldown reset** \n ${dungeonIcon} ${dungeonInfo}  `)
 		.setURL("https://top.gg/")
 		.setFooter("You can vote every 12 hour");
