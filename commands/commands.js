@@ -44,7 +44,7 @@ const generateCommandEmbed = ()=> {
 	const supportServerUrl = "https://discord.gg/mF3xQE69QP";
 	
 
-	const links = `[Invite](${inviteUrl} "Invite Ultra RPG to your server") | [Support Server](${supportServerUrl} "Join our support server")`;
+	const links = `[Invite](${inviteUrl} "Invite Ultimate RPG to your server") | [Support Server](${supportServerUrl} "Join our support server")`;
 
 	const title = "For more info: !help [command]";
 
